@@ -1,0 +1,9 @@
+{
+  "endPoint": "https://v3api.lifeisgoodforlearner.com",
+  "methodType" : "POST",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+  }
+}

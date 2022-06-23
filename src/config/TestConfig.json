@@ -49,6 +49,15 @@
       },
       "suite": [],
       "appiumURL": "http://0.0.0.0:4723/wd/hub"
+    },
+
+    "health_check_demo_api": {
+      "platform": "api",
+      "enable": true,
+      "env": "https://v3api.lifeisgoodforlearner.com/ping",
+      "testNGsuite": [
+        "signup.xml"
+      ]
     }
   }
 }
