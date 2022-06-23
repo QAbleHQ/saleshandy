@@ -1,0 +1,14 @@
+{
+  "endPoint": "https://v3api.lifeisgoodforlearner.com/auth/signup",
+  "methodType" : "POST",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "password": "QAble@2020",
+    "email": "vir+1@qable",
+    "timeZone": "GMT",
+    "rewardfulReferralId": "76217"
+
+  }
+}

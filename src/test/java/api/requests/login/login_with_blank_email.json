@@ -1,0 +1,11 @@
+{
+  "endPoint": "https://v3api.lifeisgoodforlearner.com/auth/login",
+  "methodType" : "POST",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "email": "",
+    "password": "QAble@1010"
+  }
+}
