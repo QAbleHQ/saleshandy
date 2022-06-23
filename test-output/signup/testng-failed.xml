@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [signup]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="verify login with blank email(failed)">
+    <classes>
+      <class name="api.test.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="verify_with_login_blank_email"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- api.test.LoginTest -->
+    </classes>
+  </test> <!-- verify login with blank email(failed) -->
+</suite> <!-- Failed suite [signup] -->

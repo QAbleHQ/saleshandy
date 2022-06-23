@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-signup" class="navigator-link">
+              <span class="suite-name border-passed">signup</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-signup" class="navigator-link ">
+                    <span>D:\saleshandy\src\test\java\suites\signup.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-signup" class="navigator-link ">
+                    <span class="test-stats">12 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-signup" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-signup" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-signup" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-signup" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-signup" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-signup" class="hide-methods passed suite-signup"> (hide)</a> <!-- hide-methods passed suite-signup -->
+                      <a href="#" panel-name="suite-signup" class="show-methods passed suite-signup"> (show)</a> <!-- show-methods passed suite-signup -->
+                    </span>
+                    <div class="method-list-content passed suite-signup">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.SignUpTest" class="method navigator-link" hash-for-method="verify_with_blank_email">verify_with_blank_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.SignUpTest" class="method navigator-link" hash-for-method="verify_with_blank_password">verify_with_blank_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.SignUpTest" class="method navigator-link" hash-for-method="verify_with_blank_timezone">verify_with_blank_timezone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.SignUpTest" class="method navigator-link" hash-for-method="verify_with_invalid_email">verify_with_invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.SignUpTest" class="method navigator-link" hash-for-method="verify_with_invalid_password">verify_with_invalid_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.LoginTest" class="method navigator-link" hash-for-method="verify_with_login_blank_email">verify_with_login_blank_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.LoginTest" class="method navigator-link" hash-for-method="verify_with_login_blank_password">verify_with_login_blank_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.LoginTest" class="method navigator-link" hash-for-method="verify_with_login_invalid_email">verify_with_login_invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.LoginTest" class="method navigator-link" hash-for-method="verify_with_login_invalid_password">verify_with_login_invalid_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.LoginTest" class="method navigator-link" hash-for-method="verify_with_login_valid_credentials">verify_with_login_valid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.SignUpTest" class="method navigator-link" hash-for-method="verify_with_same_credentials">verify_with_same_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-signup" title="api.test.SignUpTest" class="method navigator-link" hash-for-method="verify_with_valid_credentials">verify_with_valid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-signup -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-signup" class="panel signup">
+          <div class="suite-signup-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_blank_email">
+                  </a> <!-- verify_with_blank_email -->
+                  <span class="method-name">verify_with_blank_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_blank_password">
+                  </a> <!-- verify_with_blank_password -->
+                  <span class="method-name">verify_with_blank_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_blank_timezone">
+                  </a> <!-- verify_with_blank_timezone -->
+                  <span class="method-name">verify_with_blank_timezone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_invalid_email">
+                  </a> <!-- verify_with_invalid_email -->
+                  <span class="method-name">verify_with_invalid_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_invalid_password">
+                  </a> <!-- verify_with_invalid_password -->
+                  <span class="method-name">verify_with_invalid_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_same_credentials">
+                  </a> <!-- verify_with_same_credentials -->
+                  <span class="method-name">verify_with_same_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_valid_credentials">
+                  </a> <!-- verify_with_valid_credentials -->
+                  <span class="method-name">verify_with_valid_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-signup-class-passed -->
+          <div class="suite-signup-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_login_blank_email">
+                  </a> <!-- verify_with_login_blank_email -->
+                  <span class="method-name">verify_with_login_blank_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_login_blank_password">
+                  </a> <!-- verify_with_login_blank_password -->
+                  <span class="method-name">verify_with_login_blank_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_login_invalid_email">
+                  </a> <!-- verify_with_login_invalid_email -->
+                  <span class="method-name">verify_with_login_invalid_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_login_invalid_password">
+                  </a> <!-- verify_with_login_invalid_password -->
+                  <span class="method-name">verify_with_login_invalid_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_with_login_valid_credentials">
+                  </a> <!-- verify_with_login_valid_credentials -->
+                  <span class="method-name">verify_with_login_valid_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-signup-class-passed -->
+        </div> <!-- panel signup -->
+        <div panel-name="test-xml-signup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\saleshandy\src\test\java\suites\signup.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;signup&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify with valid credentials&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_valid_credentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.SignUpTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify with valid credentials --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify with blank password&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_blank_password&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.SignUpTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify with blank password --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify with invalid password&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_invalid_password&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.SignUpTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify with invalid password --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify with invalid email&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_invalid_email&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.SignUpTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify with invalid email --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify with blank email&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_blank_email&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.SignUpTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify with blank email --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify with blank timezone&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_blank_timezone&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.SignUpTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify with blank timezone --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify with same credentials&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.SignUpTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_same_credentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.SignUpTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify with same credentials --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify login with valid credentials&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_login_valid_credentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify login with valid credentials --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify login with invalid email&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_login_invalid_email&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify login with invalid email --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify login with blank email&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_login_blank_email&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify login with blank email --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify login with invalid password&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_login_invalid_password&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify login with invalid password --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;verify login with blank password&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_with_login_blank_password&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- api.test.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify login with blank password --&gt;
+&lt;/suite&gt; &lt;!-- signup --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-signup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for signup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">verify with valid credentials (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify with blank password (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify with invalid password (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify with invalid email (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify with blank email (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify with blank timezone (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify with same credentials (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify login with valid credentials (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify login with invalid email (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify login with blank email (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify login with invalid password (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify login with blank password (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-signup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for signup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-signup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for signup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_signup');
+function tableData_signup() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_with_valid_credentials')
+data.setCell(0, 2, 'api.test.SignUpTest')
+data.setCell(0, 3, 3179);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_with_login_invalid_password')
+data.setCell(1, 2, 'api.test.LoginTest')
+data.setCell(1, 3, 470);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_with_login_valid_credentials')
+data.setCell(2, 2, 'api.test.LoginTest')
+data.setCell(2, 3, 409);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_with_login_blank_email')
+data.setCell(3, 2, 'api.test.LoginTest')
+data.setCell(3, 3, 349);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_with_blank_email')
+data.setCell(4, 2, 'api.test.SignUpTest')
+data.setCell(4, 3, 330);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_with_login_blank_password')
+data.setCell(5, 2, 'api.test.LoginTest')
+data.setCell(5, 3, 327);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_with_blank_password')
+data.setCell(6, 2, 'api.test.SignUpTest')
+data.setCell(6, 3, 323);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_with_invalid_password')
+data.setCell(7, 2, 'api.test.SignUpTest')
+data.setCell(7, 3, 322);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_with_login_invalid_email')
+data.setCell(8, 2, 'api.test.LoginTest')
+data.setCell(8, 3, 321);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_with_invalid_email')
+data.setCell(9, 2, 'api.test.SignUpTest')
+data.setCell(9, 3, 320);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verify_with_blank_timezone')
+data.setCell(10, 2, 'api.test.SignUpTest')
+data.setCell(10, 3, 313);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_with_same_credentials')
+data.setCell(11, 2, 'api.test.SignUpTest')
+data.setCell(11, 3, 313);
+window.suiteTableData['signup']= { tableData: data, tableDiv: 'times-div-signup'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-signup">
+              </div> <!-- times-div-signup -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-signup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for signup</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_valid_credentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : signup/signup_with_valid_credentials<br></span>
+                <span class="reporter-method-output">Step : Request End Point : signup/signup_with_valid_credentials<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"payload":{"canResendUserVerificationCode":false},"message":"OTP has been sent successfully","statusCode":201}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 201<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_blank_password</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : signup/signup_with_blank_password<br></span>
+                <span class="reporter-method-output">Step : Request End Point : signup/signup_with_blank_password<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":["Password must contain at least one upper case, lowercase and a number","password must be longer than or equal to 8 characters"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_invalid_password</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : signup/signup_with_invalid_password<br></span>
+                <span class="reporter-method-output">Step : Request End Point : signup/signup_with_invalid_password<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":["Password must contain at least one upper case, lowercase and a number","password must be longer than or equal to 8 characters"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_invalid_email</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : signup/signup_with_invalid_email<br></span>
+                <span class="reporter-method-output">Step : Request End Point : signup/signup_with_invalid_email<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":["email must be an email"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_blank_email</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : signup/signup_with_blank_email<br></span>
+                <span class="reporter-method-output">Step : Request End Point : signup/signup_with_blank_email<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":["email must be an email"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_blank_timezone</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : signup/signup_with_blank_timezone<br></span>
+                <span class="reporter-method-output">Step : Request End Point : signup/signup_with_blank_timezone<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":[" is invalid timezone","timeZone should not be empty"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_same_credentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : signup/signup_with_same_credentials<br></span>
+                <span class="reporter-method-output">Step : Request End Point : signup/signup_with_same_credentials<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"code":1001,"error":true,"type":"general","message":"User already exists","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_login_valid_credentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : login/login_with_valid_credentials<br></span>
+                <span class="reporter-method-output">Step : Request End Point : login/login_with_valid_credentials<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"payload":{"firstName":"","lastName":"","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE3MTIsImlhdCI6MTY1NTk5MTAyNCwiZXhwIjoxNjU4NTgzMDI0fQ.F78MWLoFWvWyCdEUIoXq1v6N7k25h_LXbGSMYbJeifg","email":"vir@qable.io","trackingId":"M5lNR1Y1SB"},"message":"Logged in successfully","statusCode":201}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 201<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_login_invalid_email</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : login/login_with_invalid_email<br></span>
+                <span class="reporter-method-output">Step : Request End Point : login/login_with_invalid_email<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":["email must be an email"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_login_blank_email</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : login/login_with_blank_email<br></span>
+                <span class="reporter-method-output">Step : Request End Point : login/login_with_blank_email<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":["email must be an email"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_login_invalid_password</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : login/login_with_invalid_password<br></span>
+                <span class="reporter-method-output">Step : Request End Point : login/login_with_invalid_password<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"code":1001,"error":true,"type":"general","message":"Invalid username or password","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_with_login_blank_password</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Performing Request : login/login_with_blank_password<br></span>
+                <span class="reporter-method-output">Step : Request End Point : login/login_with_blank_password<br></span>
+                <span class="reporter-method-output">Step : Request Headers : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : Request body : {Content-Type=application/json}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : getting response : <br></span>
+                <span class="reporter-method-output">Step : Response object : {"messages":["password should not be empty"],"error":true,"type":"validation","statusCode":400}<br></span>
+                <span class="reporter-method-output">Step : ========================================================================<br></span>
+                <span class="reporter-method-output">Step : Validating status code is equal to expected value : 400<br></span>
+                <span class="reporter-method-output">Step : Test Passed<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-signup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">62 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">api.test.SignUpTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_with_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_same_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_same_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_same_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_same_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_same_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_same_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_timezone</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_timezone</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_timezone</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_timezone</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_timezone</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_blank_timezone</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">api.test.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_with_login_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_valid_credentials</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_email</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_invalid_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_password</span>
+                <br/>
+                <span class="ignored-method-name">verify_with_login_blank_password</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-signup" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_valid_credentials</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_valid_credentials status=SUCCESS method=SignUpTest.verify_with_valid_cr...)</span>
+                <span class="method-start">3203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verify_with_blank_password</span>
+                <span class="method-start">3221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">3221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_blank_password status=SUCCESS method=SignUpTest.verify_with_blank_passw...)</span>
+                <span class="method-start">3545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">3558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_invalid_password</span>
+                <span class="method-start">3560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_invalid_password status=SUCCESS method=SignUpTest.verify_with_invalid_p...)</span>
+                <span class="method-start">3882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">3896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_invalid_email</span>
+                <span class="method-start">3897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_invalid_email status=SUCCESS method=SignUpTest.verify_with_invalid_emai...)</span>
+                <span class="method-start">4217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">4230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_blank_email</span>
+                <span class="method-start">4232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_blank_email status=SUCCESS method=SignUpTest.verify_with_blank_email()[...)</span>
+                <span class="method-start">4563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">4575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_blank_timezone</span>
+                <span class="method-start">4578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_blank_timezone status=SUCCESS method=SignUpTest.verify_with_blank_timez...)</span>
+                <span class="method-start">4891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">4903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_same_credentials</span>
+                <span class="method-start">4906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_same_credentials status=SUCCESS method=SignUpTest.verify_with_same_cred...)</span>
+                <span class="method-start">5220 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">5233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_login_valid_credentials</span>
+                <span class="method-start">5234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_login_valid_credentials status=SUCCESS method=LoginTest.verify_with_log...)</span>
+                <span class="method-start">5644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">5657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_login_invalid_email</span>
+                <span class="method-start">5658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_login_invalid_email status=SUCCESS method=LoginTest.verify_with_login_i...)</span>
+                <span class="method-start">5979 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">5990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_login_blank_email</span>
+                <span class="method-start">5993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_login_blank_email status=SUCCESS method=LoginTest.verify_with_login_bla...)</span>
+                <span class="method-start">6343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">6355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_login_invalid_password</span>
+                <span class="method-start">6357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_login_invalid_password status=SUCCESS method=LoginTest.verify_with_logi...)</span>
+                <span class="method-start">6827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">6839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_with_login_blank_password</span>
+                <span class="method-start">6842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tear_down([TestResult name=verify_with_login_blank_password status=SUCCESS method=LoginTest.verify_with_login_...)</span>
+                <span class="method-start">7169 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
