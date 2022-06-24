@@ -23,7 +23,7 @@
       <![CDATA[Step : getting response : <br>]]>
     </line>
     <line>
-      <![CDATA[Step : Response object : {"payload":{"canResendUserVerificationCode":false},"message":"OTP has been sent successfully","statusCode":201}<br>]]>
+      <![CDATA[Step : Response object : {"payload":{"canResendUserVerificationCode":true},"message":"OTP has been sent successfully","statusCode":201}<br>]]>
     </line>
     <line>
       <![CDATA[Step : ========================================================================<br>]]>
@@ -254,7 +254,7 @@
       <![CDATA[Step : getting response : <br>]]>
     </line>
     <line>
-      <![CDATA[Step : Response object : {"payload":{"firstName":"","lastName":"","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE3MTIsImlhdCI6MTY1NTk5MTAyNCwiZXhwIjoxNjU4NTgzMDI0fQ.F78MWLoFWvWyCdEUIoXq1v6N7k25h_LXbGSMYbJeifg","email":"vir@qable.io","trackingId":"M5lNR1Y1SB"},"message":"Logged in successfully","statusCode":201}<br>]]>
+      <![CDATA[Step : Response object : {"payload":{"firstName":"","lastName":"","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE3MTIsImlhdCI6MTY1NjA2OTc1NCwiZXhwIjoxNjU4NjYxNzU0fQ.PZeZkCITyem_ApKbUPZgouppVrJu_pcKVh7Bb8vXdHs","email":"vir@qable.io","trackingId":"M5lNR1Y1SB"},"message":"Logged in successfully","statusCode":201}<br>]]>
     </line>
     <line>
       <![CDATA[Step : ========================================================================<br>]]>
@@ -398,16 +398,16 @@
       <![CDATA[Step : Test Passed<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-23T19:00:12 IST" name="signup" finished-at="2022-06-23T19:00:19 IST" duration-ms="7202">
+  <suite started-at="2022-06-24T16:52:28 IST" name="signup" finished-at="2022-06-24T16:52:34 IST" duration-ms="6324">
     <groups>
     </groups>
-    <test started-at="2022-06-23T19:00:12 IST" name="verify with valid credentials" finished-at="2022-06-23T19:00:15 IST" duration-ms="3237">
+    <test started-at="2022-06-24T16:52:28 IST" name="verify with valid credentials" finished-at="2022-06-24T16:52:30 IST" duration-ms="2303">
       <class name="api.test.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@1d119efb]" started-at="2022-06-23T19:00:12 IST" name="init" finished-at="2022-06-23T19:00:12 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@1d119efb]" started-at="2022-06-24T16:52:28 IST" name="init" finished-at="2022-06-24T16:52:28 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_valid_credentials()[pri:0, instance:api.test.SignUpTest@1d119efb]" started-at="2022-06-23T19:00:12 IST" name="verify_with_valid_credentials" finished-at="2022-06-23T19:00:15 IST" duration-ms="3179" status="PASS">
+        <test-method signature="verify_with_valid_credentials()[pri:0, instance:api.test.SignUpTest@1d119efb]" started-at="2022-06-24T16:52:28 IST" name="verify_with_valid_credentials" finished-at="2022-06-24T16:52:30 IST" duration-ms="2233" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -431,7 +431,7 @@
               <![CDATA[Step : getting response : <br>]]>
             </line>
             <line>
-              <![CDATA[Step : Response object : {"payload":{"canResendUserVerificationCode":false},"message":"OTP has been sent successfully","statusCode":201}<br>]]>
+              <![CDATA[Step : Response object : {"payload":{"canResendUserVerificationCode":true},"message":"OTP has been sent successfully","statusCode":201}<br>]]>
             </line>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -444,7 +444,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_valid_credentials -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@1d119efb]" started-at="2022-06-23T19:00:15 IST" name="tear_down" finished-at="2022-06-23T19:00:15 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@1d119efb]" started-at="2022-06-24T16:52:30 IST" name="tear_down" finished-at="2022-06-24T16:52:30 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -497,9 +497,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.SignUpTest -->
     </test> <!-- verify with valid credentials -->
-    <test started-at="2022-06-23T19:00:15 IST" name="verify with blank password" finished-at="2022-06-23T19:00:15 IST" duration-ms="326">
+    <test started-at="2022-06-24T16:52:30 IST" name="verify with blank password" finished-at="2022-06-24T16:52:30 IST" duration-ms="373">
       <class name="api.test.SignUpTest">
-        <test-method signature="verify_with_blank_password()[pri:0, instance:api.test.SignUpTest@1dde4cb2]" started-at="2022-06-23T19:00:15 IST" name="verify_with_blank_password" finished-at="2022-06-23T19:00:15 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@1dde4cb2]" started-at="2022-06-24T16:52:30 IST" name="init" finished-at="2022-06-24T16:52:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verify_with_blank_password()[pri:0, instance:api.test.SignUpTest@1dde4cb2]" started-at="2022-06-24T16:52:30 IST" name="verify_with_blank_password" finished-at="2022-06-24T16:52:30 IST" duration-ms="370" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -536,11 +540,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_blank_password -->
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@1dde4cb2]" started-at="2022-06-23T19:00:15 IST" name="init" finished-at="2022-06-23T19:00:15 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@1dde4cb2]" started-at="2022-06-23T19:00:15 IST" name="tear_down" finished-at="2022-06-23T19:00:15 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@1dde4cb2]" started-at="2022-06-24T16:52:30 IST" name="tear_down" finished-at="2022-06-24T16:52:30 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -593,13 +593,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.SignUpTest -->
     </test> <!-- verify with blank password -->
-    <test started-at="2022-06-23T19:00:16 IST" name="verify with invalid password" finished-at="2022-06-23T19:00:16 IST" duration-ms="326">
+    <test started-at="2022-06-24T16:52:30 IST" name="verify with invalid password" finished-at="2022-06-24T16:52:31 IST" duration-ms="335">
       <class name="api.test.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@56620197]" started-at="2022-06-23T19:00:16 IST" name="init" finished-at="2022-06-23T19:00:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@56620197]" started-at="2022-06-24T16:52:30 IST" name="init" finished-at="2022-06-24T16:52:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_invalid_password()[pri:0, instance:api.test.SignUpTest@56620197]" started-at="2022-06-23T19:00:16 IST" name="verify_with_invalid_password" finished-at="2022-06-23T19:00:16 IST" duration-ms="322" status="PASS">
+        <test-method signature="verify_with_invalid_password()[pri:0, instance:api.test.SignUpTest@56620197]" started-at="2022-06-24T16:52:30 IST" name="verify_with_invalid_password" finished-at="2022-06-24T16:52:31 IST" duration-ms="331" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -636,7 +636,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_invalid_password -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@56620197]" started-at="2022-06-23T19:00:16 IST" name="tear_down" finished-at="2022-06-23T19:00:16 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@56620197]" started-at="2022-06-24T16:52:31 IST" name="tear_down" finished-at="2022-06-24T16:52:31 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -689,13 +689,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.SignUpTest -->
     </test> <!-- verify with invalid password -->
-    <test started-at="2022-06-23T19:00:16 IST" name="verify with invalid email" finished-at="2022-06-23T19:00:16 IST" duration-ms="324">
+    <test started-at="2022-06-24T16:52:31 IST" name="verify with invalid email" finished-at="2022-06-24T16:52:31 IST" duration-ms="336">
       <class name="api.test.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@192d43ce]" started-at="2022-06-23T19:00:16 IST" name="init" finished-at="2022-06-23T19:00:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@192d43ce]" started-at="2022-06-24T16:52:31 IST" name="init" finished-at="2022-06-24T16:52:31 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_invalid_email()[pri:0, instance:api.test.SignUpTest@192d43ce]" started-at="2022-06-23T19:00:16 IST" name="verify_with_invalid_email" finished-at="2022-06-23T19:00:16 IST" duration-ms="320" status="PASS">
+        <test-method signature="verify_with_invalid_email()[pri:0, instance:api.test.SignUpTest@192d43ce]" started-at="2022-06-24T16:52:31 IST" name="verify_with_invalid_email" finished-at="2022-06-24T16:52:31 IST" duration-ms="332" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -732,7 +732,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_invalid_email -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@192d43ce]" started-at="2022-06-23T19:00:16 IST" name="tear_down" finished-at="2022-06-23T19:00:16 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@192d43ce]" started-at="2022-06-24T16:52:31 IST" name="tear_down" finished-at="2022-06-24T16:52:31 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -785,13 +785,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.SignUpTest -->
     </test> <!-- verify with invalid email -->
-    <test started-at="2022-06-23T19:00:16 IST" name="verify with blank email" finished-at="2022-06-23T19:00:17 IST" duration-ms="335">
+    <test started-at="2022-06-24T16:52:31 IST" name="verify with blank email" finished-at="2022-06-24T16:52:31 IST" duration-ms="326">
       <class name="api.test.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@1ab3a8c8]" started-at="2022-06-23T19:00:16 IST" name="init" finished-at="2022-06-23T19:00:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@1ab3a8c8]" started-at="2022-06-24T16:52:31 IST" name="init" finished-at="2022-06-24T16:52:31 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_blank_email()[pri:0, instance:api.test.SignUpTest@1ab3a8c8]" started-at="2022-06-23T19:00:16 IST" name="verify_with_blank_email" finished-at="2022-06-23T19:00:17 IST" duration-ms="330" status="PASS">
+        <test-method signature="verify_with_blank_email()[pri:0, instance:api.test.SignUpTest@1ab3a8c8]" started-at="2022-06-24T16:52:31 IST" name="verify_with_blank_email" finished-at="2022-06-24T16:52:31 IST" duration-ms="321" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -828,7 +828,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_blank_email -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@1ab3a8c8]" started-at="2022-06-23T19:00:17 IST" name="tear_down" finished-at="2022-06-23T19:00:17 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@1ab3a8c8]" started-at="2022-06-24T16:52:31 IST" name="tear_down" finished-at="2022-06-24T16:52:31 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -881,13 +881,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.SignUpTest -->
     </test> <!-- verify with blank email -->
-    <test started-at="2022-06-23T19:00:17 IST" name="verify with blank timezone" finished-at="2022-06-23T19:00:17 IST" duration-ms="320">
+    <test started-at="2022-06-24T16:52:31 IST" name="verify with blank timezone" finished-at="2022-06-24T16:52:32 IST" duration-ms="323">
       <class name="api.test.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@40ef3420]" started-at="2022-06-23T19:00:17 IST" name="init" finished-at="2022-06-23T19:00:17 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@40ef3420]" started-at="2022-06-24T16:52:31 IST" name="init" finished-at="2022-06-24T16:52:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_blank_timezone()[pri:0, instance:api.test.SignUpTest@40ef3420]" started-at="2022-06-23T19:00:17 IST" name="verify_with_blank_timezone" finished-at="2022-06-23T19:00:17 IST" duration-ms="313" status="PASS">
+        <test-method signature="verify_with_blank_timezone()[pri:0, instance:api.test.SignUpTest@40ef3420]" started-at="2022-06-24T16:52:31 IST" name="verify_with_blank_timezone" finished-at="2022-06-24T16:52:32 IST" duration-ms="318" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -924,7 +924,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_blank_timezone -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@40ef3420]" started-at="2022-06-23T19:00:17 IST" name="tear_down" finished-at="2022-06-23T19:00:17 IST" duration-ms="2" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@40ef3420]" started-at="2022-06-24T16:52:32 IST" name="tear_down" finished-at="2022-06-24T16:52:32 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -977,13 +977,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.SignUpTest -->
     </test> <!-- verify with blank timezone -->
-    <test started-at="2022-06-23T19:00:17 IST" name="verify with same credentials" finished-at="2022-06-23T19:00:17 IST" duration-ms="318">
+    <test started-at="2022-06-24T16:52:32 IST" name="verify with same credentials" finished-at="2022-06-24T16:52:32 IST" duration-ms="336">
       <class name="api.test.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@795cd85e]" started-at="2022-06-23T19:00:17 IST" name="init" finished-at="2022-06-23T19:00:17 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.SignUpTest@795cd85e]" started-at="2022-06-24T16:52:32 IST" name="init" finished-at="2022-06-24T16:52:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_same_credentials()[pri:0, instance:api.test.SignUpTest@795cd85e]" started-at="2022-06-23T19:00:17 IST" name="verify_with_same_credentials" finished-at="2022-06-23T19:00:17 IST" duration-ms="313" status="PASS">
+        <test-method signature="verify_with_same_credentials()[pri:0, instance:api.test.SignUpTest@795cd85e]" started-at="2022-06-24T16:52:32 IST" name="verify_with_same_credentials" finished-at="2022-06-24T16:52:32 IST" duration-ms="333" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -1020,7 +1020,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_same_credentials -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@795cd85e]" started-at="2022-06-23T19:00:17 IST" name="tear_down" finished-at="2022-06-23T19:00:17 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.SignUpTest@795cd85e]" started-at="2022-06-24T16:52:32 IST" name="tear_down" finished-at="2022-06-24T16:52:32 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1073,13 +1073,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.SignUpTest -->
     </test> <!-- verify with same credentials -->
-    <test started-at="2022-06-23T19:00:17 IST" name="verify login with valid credentials" finished-at="2022-06-23T19:00:18 IST" duration-ms="413">
+    <test started-at="2022-06-24T16:52:32 IST" name="verify login with valid credentials" finished-at="2022-06-24T16:52:33 IST" duration-ms="421">
       <class name="api.test.LoginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@4d9e68d0]" started-at="2022-06-23T19:00:17 IST" name="init" finished-at="2022-06-23T19:00:17 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@4d9e68d0]" started-at="2022-06-24T16:52:32 IST" name="init" finished-at="2022-06-24T16:52:32 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_login_valid_credentials()[pri:0, instance:api.test.LoginTest@4d9e68d0]" started-at="2022-06-23T19:00:17 IST" name="verify_with_login_valid_credentials" finished-at="2022-06-23T19:00:18 IST" duration-ms="409" status="PASS">
+        <test-method signature="verify_with_login_valid_credentials()[pri:0, instance:api.test.LoginTest@4d9e68d0]" started-at="2022-06-24T16:52:32 IST" name="verify_with_login_valid_credentials" finished-at="2022-06-24T16:52:33 IST" duration-ms="416" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -1103,7 +1103,7 @@ at Runner.Runner.main(Runner.java:10)
               <![CDATA[Step : getting response : <br>]]>
             </line>
             <line>
-              <![CDATA[Step : Response object : {"payload":{"firstName":"","lastName":"","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE3MTIsImlhdCI6MTY1NTk5MTAyNCwiZXhwIjoxNjU4NTgzMDI0fQ.F78MWLoFWvWyCdEUIoXq1v6N7k25h_LXbGSMYbJeifg","email":"vir@qable.io","trackingId":"M5lNR1Y1SB"},"message":"Logged in successfully","statusCode":201}<br>]]>
+              <![CDATA[Step : Response object : {"payload":{"firstName":"","lastName":"","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE3MTIsImlhdCI6MTY1NjA2OTc1NCwiZXhwIjoxNjU4NjYxNzU0fQ.PZeZkCITyem_ApKbUPZgouppVrJu_pcKVh7Bb8vXdHs","email":"vir@qable.io","trackingId":"M5lNR1Y1SB"},"message":"Logged in successfully","statusCode":201}<br>]]>
             </line>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -1116,7 +1116,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_login_valid_credentials -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@4d9e68d0]" started-at="2022-06-23T19:00:18 IST" name="tear_down" finished-at="2022-06-23T19:00:18 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@4d9e68d0]" started-at="2022-06-24T16:52:33 IST" name="tear_down" finished-at="2022-06-24T16:52:33 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1169,13 +1169,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.LoginTest -->
     </test> <!-- verify login with valid credentials -->
-    <test started-at="2022-06-23T19:00:18 IST" name="verify login with invalid email" finished-at="2022-06-23T19:00:18 IST" duration-ms="325">
+    <test started-at="2022-06-24T16:52:33 IST" name="verify login with invalid email" finished-at="2022-06-24T16:52:33 IST" duration-ms="336">
       <class name="api.test.LoginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@6c80d78a]" started-at="2022-06-23T19:00:18 IST" name="init" finished-at="2022-06-23T19:00:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@6c80d78a]" started-at="2022-06-24T16:52:33 IST" name="init" finished-at="2022-06-24T16:52:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_login_invalid_email()[pri:0, instance:api.test.LoginTest@6c80d78a]" started-at="2022-06-23T19:00:18 IST" name="verify_with_login_invalid_email" finished-at="2022-06-23T19:00:18 IST" duration-ms="321" status="PASS">
+        <test-method signature="verify_with_login_invalid_email()[pri:0, instance:api.test.LoginTest@6c80d78a]" started-at="2022-06-24T16:52:33 IST" name="verify_with_login_invalid_email" finished-at="2022-06-24T16:52:33 IST" duration-ms="333" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -1212,7 +1212,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_login_invalid_email -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@6c80d78a]" started-at="2022-06-23T19:00:18 IST" name="tear_down" finished-at="2022-06-23T19:00:18 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@6c80d78a]" started-at="2022-06-24T16:52:33 IST" name="tear_down" finished-at="2022-06-24T16:52:33 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1265,13 +1265,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.LoginTest -->
     </test> <!-- verify login with invalid email -->
-    <test started-at="2022-06-23T19:00:18 IST" name="verify login with blank email" finished-at="2022-06-23T19:00:18 IST" duration-ms="355">
+    <test started-at="2022-06-24T16:52:33 IST" name="verify login with blank email" finished-at="2022-06-24T16:52:33 IST" duration-ms="330">
       <class name="api.test.LoginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@6dc17b83]" started-at="2022-06-23T19:00:18 IST" name="init" finished-at="2022-06-23T19:00:18 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@6dc17b83]" started-at="2022-06-24T16:52:33 IST" name="init" finished-at="2022-06-24T16:52:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_login_blank_email()[pri:0, instance:api.test.LoginTest@6dc17b83]" started-at="2022-06-23T19:00:18 IST" name="verify_with_login_blank_email" finished-at="2022-06-23T19:00:18 IST" duration-ms="349" status="PASS">
+        <test-method signature="verify_with_login_blank_email()[pri:0, instance:api.test.LoginTest@6dc17b83]" started-at="2022-06-24T16:52:33 IST" name="verify_with_login_blank_email" finished-at="2022-06-24T16:52:33 IST" duration-ms="326" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -1308,7 +1308,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_login_blank_email -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@6dc17b83]" started-at="2022-06-23T19:00:18 IST" name="tear_down" finished-at="2022-06-23T19:00:18 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@6dc17b83]" started-at="2022-06-24T16:52:33 IST" name="tear_down" finished-at="2022-06-24T16:52:33 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1361,13 +1361,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.LoginTest -->
     </test> <!-- verify login with blank email -->
-    <test started-at="2022-06-23T19:00:18 IST" name="verify login with invalid password" finished-at="2022-06-23T19:00:19 IST" duration-ms="474">
+    <test started-at="2022-06-24T16:52:33 IST" name="verify login with invalid password" finished-at="2022-06-24T16:52:34 IST" duration-ms="415">
       <class name="api.test.LoginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@6e20b53a]" started-at="2022-06-23T19:00:18 IST" name="init" finished-at="2022-06-23T19:00:18 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@6e20b53a]" started-at="2022-06-24T16:52:33 IST" name="init" finished-at="2022-06-24T16:52:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_login_invalid_password()[pri:0, instance:api.test.LoginTest@6e20b53a]" started-at="2022-06-23T19:00:18 IST" name="verify_with_login_invalid_password" finished-at="2022-06-23T19:00:19 IST" duration-ms="470" status="PASS">
+        <test-method signature="verify_with_login_invalid_password()[pri:0, instance:api.test.LoginTest@6e20b53a]" started-at="2022-06-24T16:52:33 IST" name="verify_with_login_invalid_password" finished-at="2022-06-24T16:52:34 IST" duration-ms="410" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -1404,7 +1404,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_login_invalid_password -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@6e20b53a]" started-at="2022-06-23T19:00:19 IST" name="tear_down" finished-at="2022-06-23T19:00:19 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@6e20b53a]" started-at="2022-06-24T16:52:34 IST" name="tear_down" finished-at="2022-06-24T16:52:34 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1457,13 +1457,13 @@ at Runner.Runner.main(Runner.java:10)
         </test-method> <!-- tear_down -->
       </class> <!-- api.test.LoginTest -->
     </test> <!-- verify login with invalid password -->
-    <test started-at="2022-06-23T19:00:19 IST" name="verify login with blank password" finished-at="2022-06-23T19:00:19 IST" duration-ms="332">
+    <test started-at="2022-06-24T16:52:34 IST" name="verify login with blank password" finished-at="2022-06-24T16:52:34 IST" duration-ms="326">
       <class name="api.test.LoginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@158da8e]" started-at="2022-06-23T19:00:19 IST" name="init" finished-at="2022-06-23T19:00:19 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:api.test.LoginTest@158da8e]" started-at="2022-06-24T16:52:34 IST" name="init" finished-at="2022-06-24T16:52:34 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_with_login_blank_password()[pri:0, instance:api.test.LoginTest@158da8e]" started-at="2022-06-23T19:00:19 IST" name="verify_with_login_blank_password" finished-at="2022-06-23T19:00:19 IST" duration-ms="327" status="PASS">
+        <test-method signature="verify_with_login_blank_password()[pri:0, instance:api.test.LoginTest@158da8e]" started-at="2022-06-24T16:52:34 IST" name="verify_with_login_blank_password" finished-at="2022-06-24T16:52:34 IST" duration-ms="323" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : ========================================================================<br>]]>
@@ -1500,7 +1500,7 @@ at Runner.Runner.main(Runner.java:10)
             </line>
           </reporter-output>
         </test-method> <!-- verify_with_login_blank_password -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@158da8e]" started-at="2022-06-23T19:00:19 IST" name="tear_down" finished-at="2022-06-23T19:00:19 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:api.test.LoginTest@158da8e]" started-at="2022-06-24T16:52:34 IST" name="tear_down" finished-at="2022-06-24T16:52:34 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
