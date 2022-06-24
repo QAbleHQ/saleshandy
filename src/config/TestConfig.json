@@ -1,16 +1,20 @@
 {
-  "run": "chromeConfig",
+  "run": "cs_test",
   "config": {
-    "chromeConfig": {
+    "cs_test": {
       "platform": "web",
       "browser": "chrome",
       "capabilities": {},
-      "env": "https://quality.dhiwise.com/signin",
+      "env": "https://my.saleshandy.com/signup",
       "isGrid": false,
-      "gridURL": "",
+      "gridURL": "http://172.31.13.52:4444/wd/hub",
       "viewPort": "",
-      "suite": [
-        ""
+      "apiTestConfig": {
+        "enable": false,
+        "env": ""
+      },
+      "testNGsuite": [
+        "wsignup.xml"
       ]
     },
     "smokeConfig": {
