@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [web test signup]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="verify signup with valid email password(failed)">
+    <classes>
+      <class name="web.tests.signup.SignUpTest">
+        <methods>
+          <include name="init"/>
+          <include name="verify_signup_with_valid_email_password"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- web.tests.signup.SignUpTest -->
+    </classes>
+  </test> <!-- verify signup with valid email password(failed) -->
+</suite> <!-- Failed suite [web test signup] -->

@@ -1,0 +1,37 @@
+{
+  "login_link": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "link",
+    "platform": "web",
+    "web_locator": "//a[contains(text(),'Login')]"
+  },
+  "enter_otp_sent_to_your_email_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text_box",
+    "platform": "web",
+    "web_locator": "//input[@name='number']"
+  },
+  "a_quick_verification_text": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//h3[contains(text(),'A quick verification')]"
+  },
+  "qabletest_gmail_com_text": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//h3[contains(text(),'qabletest@gmail.com')]"
+  },
+  "verify_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button[contains(text(),'Verify')]"
+  }
+}
