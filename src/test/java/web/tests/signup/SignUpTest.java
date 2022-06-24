@@ -7,12 +7,13 @@ import org.testng.annotations.Test;
 import web.object_repository.otp.otp;
 import web.object_repository.signup.signup;
 
+import java.io.IOException;
+
 
 public class SignUpTest extends base {
 
     @Test
-    public void verify_signup_with_valid_email_password()
-    {
+    public void verify_signup_with_valid_email_password() throws IOException, InterruptedException {
          signup signup = new signup(driver);
          otp otp = new otp(driver);
          driver.manage().window().maximize();
@@ -23,6 +24,7 @@ public class SignUpTest extends base {
          signup.click_on_sign_up_button();
 
         otp.verify_a_quick_verification_text_text_is_equal_to("A quick verification");
+        otp.gmaillogin();
 
 
     }

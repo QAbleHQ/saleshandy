@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-web_test_signup" class="navigator-link">
-              <span class="suite-name border-passed">web test signup</span>
+              <span class="suite-name border-skipped">web test signup</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-web_test_signup" class="hide-methods passed suite-web_test_signup"> (hide)</a> <!-- hide-methods passed suite-web_test_signup -->
-                      <a href="#" panel-name="suite-web_test_signup" class="show-methods passed suite-web_test_signup"> (show)</a> <!-- show-methods passed suite-web_test_signup -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-web_test_signup" class="hide-methods skipped suite-web_test_signup"> (hide)</a> <!-- hide-methods skipped suite-web_test_signup -->
+                      <a href="#" panel-name="suite-web_test_signup" class="show-methods skipped suite-web_test_signup"> (show)</a> <!-- show-methods skipped suite-web_test_signup -->
                     </span>
-                    <div class="method-list-content passed suite-web_test_signup">
+                    <div class="method-list-content skipped suite-web_test_signup">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-web_test_signup" title="web.tests.signup.SignUpTest" class="method navigator-link" hash-for-method="verify_signup_with_valid_email_password">verify_signup_with_valid_email_password</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-web_test_signup -->
+                    </div> <!-- method-list-content skipped suite-web_test_signup -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,9 +119,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-web_test_signup" class="panel web_test_signup">
-          <div class="suite-web_test_signup-class-passed">
+          <div class="suite-web_test_signup-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">web.tests.signup.SignUpTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,10 +130,24 @@
                   <a name="verify_signup_with_valid_email_password">
                   </a> <!-- verify_signup_with_valid_email_password -->
                   <span class="method-name">verify_signup_with_valid_email_password</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: &apos;com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)&apos;
+	at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriver.java:118)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
+	at io.unity.framework.init.base.setup_browser(base.java:99)
+	at io.unity.framework.init.base.init(base.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at io.unity.framework.runner.TestRunner.start(TestRunner.java:71)
+	at Runner.Runner.main(Runner.java:10)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-web_test_signup-class-passed -->
+          </div> <!-- suite-web_test_signup-class-skipped -->
         </div> <!-- panel web_test_signup -->
         <div panel-name="test-xml-web_test_signup" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -194,12 +208,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verify_signup_with_valid_email_password')
 data.setCell(0, 2, 'web.tests.signup.SignUpTest')
-data.setCell(0, 3, 29753);
+data.setCell(0, 3, 0);
 window.suiteTableData['web_test_signup']= { tableData: data, tableDiv: 'times-div-web_test_signup'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-web_test_signup">
               </div> <!-- times-div-web_test_signup -->
             </div> <!-- times-div -->
@@ -210,17 +224,6 @@ return data;
             <span class="header-content">Reporter output for web test signup</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verify_signup_with_valid_email_password</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Step : Click on preferably_your_work_email_text_box<br></span>
-                <span class="reporter-method-output">Step : Enter text qabletest@gmail.com at locator preferably_your_work_email_text_box<br></span>
-                <span class="reporter-method-output">Step : Enter text QAble@1010 at locator a_secure_one_please_password<br></span>
-                <span class="reporter-method-output">Step : Click on sign_up_button<br></span>
-                <span class="reporter-method-output">Step : verify element a_quick_verification_text text is equal A quick verification<br></span>
-                <span class="reporter-method-output"><h1 style="color:green;font-size:15px;">Test Passed</h1> </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-web_test_signup" class="panel">
@@ -238,17 +241,19 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">web.tests.signup.SignUpTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tear_down</span>
+                <span class="method-start">455 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verify_signup_with_valid_email_password</span>
-                <span class="method-start">7399 ms</span>
+                <span class="method-start">455 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tear_down([TestResult name=verify_signup_with_valid_email_password status=SUCCESS method=SignUpTest.verify_sig...)</span>
-                <span class="method-start">37155 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

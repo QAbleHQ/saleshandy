@@ -2,9 +2,17 @@ package web.object_repository.otp;
 import io.unity.autoweb.Wait;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import io.unity.framework.generators.methodsgenerator.methods.MethodsData;
+import java.io.IOException;
+
+import java.io.IOException;
+import java.net.URL;
 
 public class otp {
 	WebDriver driver = null;
@@ -13,12 +21,36 @@ public class otp {
 
 	Wait wait = null;
 
+	//Wait delay = null;
+
 	public otp(WebDriver driver) {
 		this.driver = driver;
 		element = new Element(driver);
 		verify = new Verify(driver);
 		wait = new Wait(driver);
+		//WebDriverWait delay = new WebDriverWait(driver, 5);
+
 	}
+
+	@FindBy(xpath = "//input[@id='identifierId']")
+	private WebElement gmail;
+
+	@FindBy(xpath = "//*[@id=\\\'identifierNext\\\']/div/button")
+	private WebElement gmailNext;
+
+	@FindBy(xpath = "//input[@name='password']")
+	private WebElement gpassword;
+
+	@FindBy(xpath = "//*[@id=\\\'passwordNext\\\']/div/button")
+	private WebElement gpasswordNext;
+
+	@FindBy(xpath = "//a[contains(text(),'Verify')]")
+	private WebElement verifybtn;
+
+
+
+
+
 	@MethodsData(method_id = "link_1")
 	public void verify_login_link_is_present_on_page() {
 		verify.element_is_present("login_link");
@@ -77,4 +109,39 @@ public class otp {
 	public void verify_qabletest_gmail_com_text_text_is_equal_to(String button_text) {
 		verify.element_text_is_equal_to("qabletest_gmail_com_text", button_text);
 	}
+
+	public void gmaillogin() throws IOException,InterruptedException
+	{
+		driver.navigate().to("https://gmail.com");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+		}
+		try {
+			gmail.sendKeys("qabletest@gmail.com");
+		} catch (Exception e1) {
+
+		}
+		gmailNext.click();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+		}
+		try {
+			gpassword.sendKeys("QAble@1010");
+		} catch (Exception e1) {
+		}
+		gpasswordNext.click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+		}
+		//wait.until(ExpectedConditions.jsReturnsValue("return document.readyState == 'complete'"));
+		//wait.until(ExpectedConditions.stalenessOf(driver.findElements(By.xpath("//span[contains(@class,'bqe')][contains(text(),'Please verify your email address')]")).get(1)));
+		driver.findElements(By.xpath("//span[contains(@class,'bqe')][contains(text(),'Please verify your email address')]")).get(1).click();
+		//wait.until(ExpectedConditions.jsReturnsValue("return document.readyState == 'complete'"));
+		verifybtn.click();
+
+	}
+
 }
