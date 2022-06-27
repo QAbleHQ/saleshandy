@@ -1,14 +1,18 @@
 {
-  "run": "chromeConfig",
+  "run": "health_check_demo_api",
   "config": {
-    "chromeConfig": {
+    "gmail": {
       "platform": "web",
       "browser": "chrome",
       "capabilities": {},
-      "env": "https://quality.dhiwise.com/signin",
+      "env": "https://gmail.com",
       "isGrid": false,
       "gridURL": "",
       "viewPort": "",
+      "apiTestConfig" :{
+        "enable" : false,
+        "env" : ""
+      },
       "suite": [
         ""
       ]

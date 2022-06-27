@@ -5,6 +5,6 @@
     "Content-Type": "application/json"
   },
   "body": {
-    "email": "qabletest+1@gmail.com"
+    "email": "qabletest+1@gmail.com",
   }
 }
