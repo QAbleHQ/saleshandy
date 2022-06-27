@@ -4,21 +4,20 @@ import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import io.unity.framework.generators.methodsgenerator.methods.MethodsData;
-import java.io.IOException;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
 
 import java.io.IOException;
-import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class otp {
 	WebDriver driver = null;
 	Element element = null;
 	Verify verify = null;
-
 	Wait wait = null;
 
 	//Wait delay = null;
@@ -28,30 +27,9 @@ public class otp {
 		element = new Element(driver);
 		verify = new Verify(driver);
 		wait = new Wait(driver);
-		//WebDriverWait delay = new WebDriverWait(driver, 5);
-
 	}
 
-	@FindBy(xpath = "//input[@id='identifierId']")
-	private WebElement gmail;
-
-	@FindBy(xpath = "//*[@id=\\\'identifierNext\\\']/div/button")
-	private WebElement gmailNext;
-
-	@FindBy(xpath = "//input[@name='password']")
-	private WebElement gpassword;
-
-	@FindBy(xpath = "//*[@id=\\\'passwordNext\\\']/div/button")
-	private WebElement gpasswordNext;
-
-	@FindBy(xpath = "//a[contains(text(),'Verify')]")
-	private WebElement verifybtn;
-
-
-
-
-
-	@MethodsData(method_id = "link_1")
+	@MethodsData(method_id = "link_3")
 	public void verify_login_link_is_present_on_page() {
 		verify.element_is_present("login_link");
 	}
@@ -100,6 +78,7 @@ public class otp {
 	@MethodsData(method_id = "button_3")
 	public void click_on_verify_button() {
 		element.click("verify_button");
+		wait.wait_for_second(5);
 	}
 	@MethodsData(method_id = "button_4")
 	public void Verify_verify_button_text_is_equal_to(String button_text) {
@@ -110,38 +89,94 @@ public class otp {
 		verify.element_text_is_equal_to("qabletest_gmail_com_text", button_text);
 	}
 
-	public void gmaillogin() throws IOException,InterruptedException
-	{
-		driver.navigate().to("https://gmail.com");
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-		}
-		try {
-			gmail.sendKeys("qabletest@gmail.com");
-		} catch (Exception e1) {
+	@MethodsData(method_id = "text_1")
+	public void clear_text_and_enter_text_in_gmailt(String text_to_enter){
+		wait.wait_for_second(5);
+		element.click("gmailt");
+		element.clear_and_enter_in_text_field("gmailt","qabletest@gmail.com");
+		wait.wait_for_second(5);
+	}
 
+	@MethodsData(method_id = "button_3")
+	public void click_on_gmail_next(){
+		element.click("gmail_next");
+		wait.wait_for_second(5);
+	}
+
+	@MethodsData(method_id = "text_1")
+	public void clear_text_and_enter_text_in_gmail_password(String text_to_enter){
+		wait.wait_for_second(5);
+		element.click("gmail_password");
+		element.clear_and_enter_in_text_field("gmail_password","QAble@1010");
+		wait.wait_for_second(5);
+	}
+
+	@MethodsData(method_id = "button_3")
+	public void click_on_gmail_password_next(){
+		element.click("gmail_password_next");
+		wait.wait_for_second(10);
+	}
+
+	public void gmaillogin()
+	{
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.navigate().to("https://gmail.com");
 		}
-		gmailNext.click();
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
+
+	/*@MethodsData(method_id = "button_3")
+	public void verify_gmail_subject_text_text_is_equal_to(String button_text){
+		wait.wait_for_second(5);
+		verify.element_text_is_equal_to("gmail_subject_text",button_text);
+		wait.wait_for_second(5);
+	}*/
+
+
+	@MethodsData(method_id = "button_3")
+	public void click_on_gmail_subject_text(){
+		List<WebElement> gmail_subject_text1 = driver.findElements(By.xpath("//span[contains(.,'Saleshandy')]"));
+		for(WebElement emailsub1 : gmail_subject_text1){
+			if(emailsub1.getText().equals("Saleshandy") == true){
+				System.out.println(emailsub1);
+				wait.wait_for_second(5);
+				emailsub1.click();
+				wait.wait_for_second(5);
+				break;
+			}
 		}
-		try {
-			gpassword.sendKeys("QAble@1010");
-		} catch (Exception e1) {
-		}
-		gpasswordNext.click();
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-		}
-		//wait.until(ExpectedConditions.jsReturnsValue("return document.readyState == 'complete'"));
-		//wait.until(ExpectedConditions.stalenessOf(driver.findElements(By.xpath("//span[contains(@class,'bqe')][contains(text(),'Please verify your email address')]")).get(1)));
-		driver.findElements(By.xpath("//span[contains(@class,'bqe')][contains(text(),'Please verify your email address')]")).get(1).click();
-		//wait.until(ExpectedConditions.jsReturnsValue("return document.readyState == 'complete'"));
-		verifybtn.click();
+	}
+
+	public String get_otp() {
+		wait.wait_for_second(5);
+		//verify.element_text_is_equal_to("otp_link", link_text);
+		//Pattern pattern = Pattern.compile("numFound=\"([0-9]+)\"");
+		//Matcher matcher = pattern.matcher("");
+
+		//if (matcher.find()) {
+			//System.out.println(matcher.group(1));
+
+		//}
+		String otp_string = driver.findElement(By.xpath("//div[@class= \"a3s aiL \"]//div")).getText();
+		String final_otp = otp_string.replaceAll("[^0-9]","");
+		System.out.println(final_otp);
+		wait.wait_for_second(5);
+		ArrayList<String> newTab = new ArrayList<String>(driver.getWindowHandles());
+		String oldTab = driver.getWindowHandle();
+		driver.switchTo().window(newTab.get(0));
+		wait.wait_for_second(5);
+		WebElement enter_otp = driver.findElement(By.xpath("//input[@placeholder = \"Enter OTP sent to your email\"]"));
+		enter_otp.sendKeys(final_otp);
+		wait.wait_for_second(5);
+		return final_otp;
+	}
+
+	/*public void backtosaleshandy()
+	{
 
 	}
+
+	/*@MethodsData(method_id = "link_3")
+	public void click_on_enter_otp_sent_to_your_email_text_box() {
+
+	}*/
 
 }

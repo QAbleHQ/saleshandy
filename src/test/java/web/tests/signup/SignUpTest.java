@@ -25,7 +25,13 @@ public class SignUpTest extends base {
 
         otp.verify_a_quick_verification_text_text_is_equal_to("A quick verification");
         otp.gmaillogin();
-
+        otp.clear_text_and_enter_text_in_gmailt("qabletest@gmail.com");
+        otp.click_on_gmail_next();
+        otp.clear_text_and_enter_text_in_gmail_password("QAble@1010");
+        otp.click_on_gmail_password_next();
+        otp.click_on_gmail_subject_text();
+        otp.get_otp();
+        otp.click_on_verify_button();
 
     }
 

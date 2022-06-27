@@ -1,116 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Step : Click on preferably_your_work_email_text_box<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text qabletest@gmail.com at locator preferably_your_work_email_text_box<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text QAble@1010 at locator a_secure_one_please_password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on sign_up_button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : verify element a_quick_verification_text text is equal A quick verification<br>]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on gmailt<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : clear value from gmailt text fields and enter text qabletest@gmail.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on gmail_next<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on gmail_password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : clear value from gmail_password text fields and enter text QAble@1010<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on gmail_password_next<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on verify_button<br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-06-24T18:16:57 IST" name="web test signup" finished-at="2022-06-24T18:16:57 IST" duration-ms="489">
+  <suite started-at="2022-06-27T14:25:03 IST" name="web test signup" finished-at="2022-06-27T14:26:55 IST" duration-ms="112053">
     <groups>
     </groups>
-    <test started-at="2022-06-24T18:16:57 IST" name="verify signup with valid email password" finished-at="2022-06-24T18:16:57 IST" duration-ms="489">
+    <test started-at="2022-06-27T14:25:03 IST" name="verify signup with valid email password" finished-at="2022-06-27T14:26:55 IST" duration-ms="112053">
       <class name="web.tests.signup.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.signup.SignUpTest@149e0f5d]" started-at="2022-06-24T18:16:57 IST" name="init" finished-at="2022-06-24T18:16:57 IST" duration-ms="455" status="FAIL">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
-at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
-at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
-at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:118)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
-at io.unity.framework.init.base.setup_browser(base.java:99)
-at io.unity.framework.init.base.init(base.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at io.unity.framework.runner.TestRunner.start(TestRunner.java:71)
-at Runner.Runner.main(Runner.java:10)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-27T14:25:03 IST" name="init" finished-at="2022-06-27T14:25:09 IST" duration-ms="5928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.signup.SignUpTest@149e0f5d]" started-at="2022-06-24T18:16:57 IST" name="tear_down" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1656074817514" status="SKIP">
+        <test-method signature="verify_signup_with_valid_email_password()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-27T14:25:09 IST" name="verify_signup_with_valid_email_password" finished-at="2022-06-27T14:26:54 IST" duration-ms="105761" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step : Click on preferably_your_work_email_text_box<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text qabletest@gmail.com at locator preferably_your_work_email_text_box<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text QAble@1010 at locator a_secure_one_please_password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on sign_up_button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : verify element a_quick_verification_text text is equal A quick verification<br>]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on gmailt<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : clear value from gmailt text fields and enter text qabletest@gmail.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on gmail_next<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on gmail_password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : clear value from gmail_password text fields and enter text QAble@1010<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on gmail_password_next<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on verify_button<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_signup_with_valid_email_password -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-27T14:26:54 IST" name="tear_down" finished-at="2022-06-27T14:26:55 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_signup_with_valid_email_password status=SUCCESS method=SignUpTest.verify_signup_with_valid_email_password()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72] output=Step : Click on preferably_your_work_email_text_box<br>]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method signature="verify_signup_with_valid_email_password()[pri:0, instance:web.tests.signup.SignUpTest@149e0f5d]" started-at="2022-06-24T18:16:57 IST" name="verify_signup_with_valid_email_password" finished-at="2022-06-24T18:16:57 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA['com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: 'com.google.common.collect.ImmutableMap com.google.common.collect.ImmutableMap.of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'
-at org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)
-at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)
-at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:118)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
-at io.unity.framework.init.base.setup_browser(base.java:99)
-at io.unity.framework.init.base.init(base.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at io.unity.framework.runner.TestRunner.start(TestRunner.java:71)
-at Runner.Runner.main(Runner.java:10)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_signup_with_valid_email_password -->
       </class> <!-- web.tests.signup.SignUpTest -->
     </test> <!-- verify signup with valid email password -->
   </suite> <!-- web test signup -->
