@@ -5,7 +5,7 @@
       <![CDATA[Step : Click on preferably_your_work_email_text_box<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Enter text qabletest@gmail.com at locator preferably_your_work_email_text_box<br>]]>
+      <![CDATA[Step : Enter text qabletest+4.27@gmail.com at locator preferably_your_work_email_text_box<br>]]>
     </line>
     <line>
       <![CDATA[Step : Enter text QAble@1010 at locator a_secure_one_please_password<br>]]>
@@ -40,23 +40,98 @@
     <line>
       <![CDATA[Step : Click on verify_button<br>]]>
     </line>
+    <line>
+      <![CDATA[Step : Enter text test 1 at locator first_name_text_box<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text test 3 at locator last_name_text_box<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on select_people<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on select_people_dropdown<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on select_industry<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on select_industry_dropdown<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on saleshandy_name<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on continue_signup<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : verify onboard_page is displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on onboard_gmail<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : verify gmail_verify is displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on gmail_verify<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on gmail_verify_allow<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : verify setting_menu is displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on close_video<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on click_on_schedule<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on add_new_schedule<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on schedule_save<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on enter_schedule_name<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : clear value from enter_schedule_name text fields and enter text Test 772<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on select_time_zone<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on change_time_zone<br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-06-27T14:25:03 IST" name="web test signup" finished-at="2022-06-27T14:26:55 IST" duration-ms="112053">
+  <suite started-at="2022-06-28T11:50:24 IST" name="web test signup" finished-at="2022-06-28T11:53:41 IST" duration-ms="197501">
     <groups>
     </groups>
-    <test started-at="2022-06-27T14:25:03 IST" name="verify signup with valid email password" finished-at="2022-06-27T14:26:55 IST" duration-ms="112053">
+    <test started-at="2022-06-28T11:50:24 IST" name="verify signup with valid email password" finished-at="2022-06-28T11:53:41 IST" duration-ms="197501">
       <class name="web.tests.signup.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-27T14:25:03 IST" name="init" finished-at="2022-06-27T14:25:09 IST" duration-ms="5928" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-28T11:50:24 IST" name="init" finished-at="2022-06-28T11:50:33 IST" duration-ms="8949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_signup_with_valid_email_password()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-27T14:25:09 IST" name="verify_signup_with_valid_email_password" finished-at="2022-06-27T14:26:54 IST" duration-ms="105761" status="PASS">
+        <test-method signature="verify_signup_with_valid_email_password()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-28T11:50:33 IST" name="verify_signup_with_valid_email_password" finished-at="2022-06-28T11:53:41 IST" duration-ms="188101" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : Click on preferably_your_work_email_text_box<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Enter text qabletest@gmail.com at locator preferably_your_work_email_text_box<br>]]>
+              <![CDATA[Step : Enter text qabletest+4.27@gmail.com at locator preferably_your_work_email_text_box<br>]]>
             </line>
             <line>
               <![CDATA[Step : Enter text QAble@1010 at locator a_secure_one_please_password<br>]]>
@@ -91,9 +166,84 @@
             <line>
               <![CDATA[Step : Click on verify_button<br>]]>
             </line>
+            <line>
+              <![CDATA[Step : Enter text test 1 at locator first_name_text_box<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text test 3 at locator last_name_text_box<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on select_people<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on select_people_dropdown<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on select_industry<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on select_industry_dropdown<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on saleshandy_name<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on continue_signup<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : verify onboard_page is displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on onboard_gmail<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : verify gmail_verify is displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on gmail_verify<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on gmail_verify_allow<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : verify setting_menu is displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on close_video<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on click_on_schedule<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on add_new_schedule<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on schedule_save<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on enter_schedule_name<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : clear value from enter_schedule_name text fields and enter text Test 772<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on select_time_zone<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on change_time_zone<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verify_signup_with_valid_email_password -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-27T14:26:54 IST" name="tear_down" finished-at="2022-06-27T14:26:55 IST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-28T11:53:41 IST" name="tear_down" finished-at="2022-06-28T11:53:41 IST" duration-ms="389" status="PASS">
           <params>
             <param index="0">
               <value>
