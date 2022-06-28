@@ -1,0 +1,135 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "API_Regression">
+    <test name = "verify with valid credentials">
+        <classes>
+            <class name = "api.test.SignUpTest" >
+                <methods>
+                    <include name="verify_with_valid_credentials"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify with blank password">
+        <classes>
+            <class name = "api.test.SignUpTest" >
+                <methods>
+                    <include name="verify_with_blank_password"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify with invalid password">
+        <classes>
+            <class name = "api.test.SignUpTest" >
+                <methods>
+                    <include name="verify_with_invalid_password"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify with invalid email">
+        <classes>
+            <class name = "api.test.SignUpTest" >
+                <methods>
+                    <include name="verify_with_invalid_email"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify with blank email">
+        <classes>
+            <class name = "api.test.SignUpTest" >
+                <methods>
+                    <include name="verify_with_blank_email"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify with blank timezone">
+        <classes>
+            <class name = "api.test.SignUpTest" >
+                <methods>
+                    <include name="verify_with_blank_timezone"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify with same credentials">
+        <classes>
+            <class name = "api.test.SignUpTest" >
+                <methods>
+                    <include name="verify_with_same_credentials"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify login with valid credentials">
+        <classes>
+            <class name = "api.test.LoginTest" >
+                <methods>
+                    <include name="verify_with_login_valid_credentials"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify login with invalid email">
+        <classes>
+            <class name = "api.test.LoginTest" >
+                <methods>
+                    <include name="verify_with_login_invalid_email"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify login with blank email">
+        <classes>
+            <class name = "api.test.LoginTest" >
+                <methods>
+                    <include name="verify_with_login_blank_email"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify login with invalid password">
+        <classes>
+            <class name = "api.test.LoginTest" >
+                <methods>
+                    <include name="verify_with_login_invalid_password"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "verify login with blank password">
+        <classes>
+            <class name = "api.test.LoginTest" >
+                <methods>
+                    <include name="verify_with_login_blank_password"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+    <test name = "verify OTP received into the Mail">
+        <classes>
+            <class name = "api.test.LoginTest" >
+                <methods>
+                    <include name="signup_with_valid_otp"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
