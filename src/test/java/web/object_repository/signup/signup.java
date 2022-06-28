@@ -226,6 +226,15 @@ public class signup {
 		wait.wait_for_second(1);
 	}
 
+	@MethodsData(method_id = "button_3")
+	public void click_on_monday_time_1(){
+		wait.wait_for_second(1);
+		element.click("monday_time_1");
+		wait.wait_for_second(1);
+	}
+
+
+
 
 
 

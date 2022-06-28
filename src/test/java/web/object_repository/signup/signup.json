@@ -278,7 +278,7 @@
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[1]/input[1]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[2]/div/div[1]/input[1]"
   },
 
   "tuesday_time_1_2": {
@@ -286,78 +286,126 @@
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[1]/input[3]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[2]/div/div[1]/input[3]"
   },
-  "tuesday_add_1": {
+  "wednesday_time_1": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[2]/i"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[3]/div/div[1]/input[1]"
   },
-  "tuesday_time_2": {
+
+  "wednesday_time_1_2": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[2]/input[1]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[3]/div/div[1]/input[3]"
   },
-  "_time_2_1": {
+  "thursday_time_1": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[2]/input[2]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[4]/div/div[1]/input[1]"
   },
-  "monday_time_2_2": {
+
+  "thursday_time_1_2": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[2]/input[3]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[4]/div/div[1]/input[3]"
   },
-  "monday_time_2_4": {
+  "friday_time_1": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[2]/input[4]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[5]/div/div[1]/input[1]"
   },
-  "monday_add_2": {
+
+  "friday_time_1_2": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[3]/i"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[5]/div/div[1]/input[3]"
   },
-  "monday_time_3": {
+  "saturday_add_1": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[3]/input[1]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[2]/div/div[1]/input[1]"
   },
-  "monday_time_3_1": {
+  "saturday_time_1": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[3]/input[2]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[6]/div/div[1]/input[1]"
   },
-  "monday_time_3_2": {
+
+  "saturday_time_1_2": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[3]/input[3]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[6]/div/div[1]/input[2]"
   },
-  "monday_time_3_4": {
+  "saturday_time_2": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[1]/div/div[3]/input[4]"
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[6]/div/div[1]/input[3]"
+  },
+  "saturday_time_2_1": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[6]/div/div[1]/input[4]"
+  },
+  "sunday_add_1": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[7]/div/div/i"
+  },
+  "sunday_time_1": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[7]/div/div[1]/input[1]"
+  },
+
+  "sunday_time_1_2": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[7]/div/div[1]/input[2]"
+  },
+  "sunday_time_2": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[7]/div/div[1]/input[3]"
+  },
+  "sunday_time_2_1": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[@id=\"accordion__panel-10167\"]/div/div[3]/div/ul/li[7]/div/div[1]/input[4]"
   }
+
 }
 
 
