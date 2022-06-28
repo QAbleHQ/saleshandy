@@ -7,12 +7,9 @@ import org.openqa.selenium.WebDriver;
 import io.unity.framework.generators.methodsgenerator.methods.MethodsData;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
-
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 public class otp {
 	WebDriver driver = null;
@@ -20,7 +17,6 @@ public class otp {
 	Verify verify = null;
 	Wait wait = null;
 
-	//Wait delay = null;
 
 	public otp(WebDriver driver) {
 		this.driver = driver;
@@ -29,38 +25,6 @@ public class otp {
 		wait = new Wait(driver);
 	}
 
-	@MethodsData(method_id = "link_3")
-	public void verify_login_link_is_present_on_page() {
-		verify.element_is_present("login_link");
-	}
-	@MethodsData(method_id = "link_3")
-	public void verify_login_link_is_clickable() {
-		verify.element_is_enable("login_link");
-	}
-	@MethodsData(method_id = "link_2")
-	public void Verify_login_link_text_is_equal_to(String button_text) {
-		verify.element_text_is_equal_to("login_link", button_text);
-	}
-	@MethodsData(method_id = "link_4")
-	public void click_on_login_link() {
-		element.click("login_link");
-	}
-	@MethodsData(method_id = "text_box_3")
-	public void clear_text_and_enter_text_in_enter_otp_sent_to_your_email_text_box(String text_to_enter) {
-		element.clear_and_enter_in_text_field("enter_otp_sent_to_your_email_text_box", text_to_enter);
-	}
-	@MethodsData(method_id = "text_box_4")
-	public void verify_enter_otp_sent_to_your_email_text_box_is_present_on_page() {
-		verify.element_is_present("enter_otp_sent_to_your_email_text_box");
-	}
-	@MethodsData(method_id = "text_box_1")
-	public void enter_text_at_enter_otp_sent_to_your_email_text_box(String text_to_enter) {
-		element.enter_text("enter_otp_sent_to_your_email_text_box", text_to_enter);
-	}
-	@MethodsData(method_id = "text_box_2")
-	public void clear_text_from_enter_otp_sent_to_your_email_text_box() {
-		element.clear_text_field("enter_otp_sent_to_your_email_text_box");
-	}
 	@MethodsData(method_id = "text_1")
 	public void verify_a_quick_verification_text_text_is_equal_to(String button_text) {
 		verify.element_text_is_equal_to("a_quick_verification_text", button_text);
@@ -79,14 +43,6 @@ public class otp {
 	public void click_on_verify_button() {
 		element.click("verify_button");
 		wait.wait_for_second(5);
-	}
-	@MethodsData(method_id = "button_4")
-	public void Verify_verify_button_text_is_equal_to(String button_text) {
-		verify.element_text_is_equal_to("verify_button", button_text);
-	}
-	@MethodsData(method_id = "text_1")
-	public void verify_qabletest_gmail_com_text_text_is_equal_to(String button_text) {
-		verify.element_text_is_equal_to("qabletest_gmail_com_text", button_text);
 	}
 
 	@MethodsData(method_id = "text_1")
@@ -123,12 +79,6 @@ public class otp {
 		driver.navigate().to("https://gmail.com");
 		}
 
-	/*@MethodsData(method_id = "button_3")
-	public void verify_gmail_subject_text_text_is_equal_to(String button_text){
-		wait.wait_for_second(5);
-		verify.element_text_is_equal_to("gmail_subject_text",button_text);
-		wait.wait_for_second(5);
-	}*/
 
 
 	@MethodsData(method_id = "button_3")
@@ -147,14 +97,6 @@ public class otp {
 
 	public String get_otp() {
 		wait.wait_for_second(5);
-		//verify.element_text_is_equal_to("otp_link", link_text);
-		//Pattern pattern = Pattern.compile("numFound=\"([0-9]+)\"");
-		//Matcher matcher = pattern.matcher("");
-
-		//if (matcher.find()) {
-			//System.out.println(matcher.group(1));
-
-		//}
 		String otp_string = driver.findElement(By.xpath("//div[@class= \"a3s aiL \"]//div")).getText();
 		String final_otp = otp_string.replaceAll("[^0-9]","");
 		System.out.println(final_otp);
@@ -168,15 +110,5 @@ public class otp {
 		wait.wait_for_second(5);
 		return final_otp;
 	}
-
-	/*public void backtosaleshandy()
-	{
-
-	}
-
-	/*@MethodsData(method_id = "link_3")
-	public void click_on_enter_otp_sent_to_your_email_text_box() {
-
-	}*/
 
 }

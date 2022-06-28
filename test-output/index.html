@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-web_test_signup">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-web_test_signup" title="web.tests.signup.SignUpTest" class="method navigator-link" hash-for-method="verify_signup_with_valid_email_password">verify_signup_with_valid_email_password</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-web_test_signup" title="web.tests.SignUpTest" class="method navigator-link" hash-for-method="verify_signup_with_valid_email_password">verify_signup_with_valid_email_password</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-web_test_signup -->
@@ -122,7 +122,7 @@
           <div class="suite-web_test_signup-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">web.tests.signup.SignUpTest</span>
+              <span class="class-name">web.tests.SignUpTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -146,11 +146,11 @@
 &lt;suite name=&quot;web test signup&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;verify signup with valid email password&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;web.tests.signup.SignUpTest&quot;&gt;
+      &lt;class name=&quot;web.tests.SignUpTest&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;verify_signup_with_valid_email_password&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- web.tests.signup.SignUpTest --&gt;
+      &lt;/class&gt; &lt;!-- web.tests.SignUpTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- verify signup with valid email password --&gt;
 &lt;/suite&gt; &lt;!-- web test signup --&gt;
@@ -193,13 +193,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verify_signup_with_valid_email_password')
-data.setCell(0, 2, 'web.tests.signup.SignUpTest')
-data.setCell(0, 3, 188101);
+data.setCell(0, 2, 'web.tests.SignUpTest')
+data.setCell(0, 3, 252936);
 window.suiteTableData['web_test_signup']= { tableData: data, tableDiv: 'times-div-web_test_signup'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-web_test_signup">
               </div> <!-- times-div-web_test_signup -->
             </div> <!-- times-div -->
@@ -214,7 +214,7 @@ return data;
               <span class="reporter-method-name">verify_signup_with_valid_email_password</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Step : Click on preferably_your_work_email_text_box<br></span>
-                <span class="reporter-method-output">Step : Enter text qabletest+4.27@gmail.com at locator preferably_your_work_email_text_box<br></span>
+                <span class="reporter-method-output">Step : Enter text qabletest+525@gmail.com at locator preferably_your_work_email_text_box<br></span>
                 <span class="reporter-method-output">Step : Enter text QAble@1010 at locator a_secure_one_please_password<br></span>
                 <span class="reporter-method-output">Step : Click on sign_up_button<br></span>
                 <span class="reporter-method-output">Step : verify element a_quick_verification_text text is equal A quick verification<br></span>
@@ -244,13 +244,65 @@ return data;
                 <span class="reporter-method-output">Step : verify setting_menu is displayed<br></span>
                 <span class="reporter-method-output"><h1 style="color:green;font-size:15px;">Test Passed</h1> </span>
                 <span class="reporter-method-output">Step : Click on close_video<br></span>
+                <span class="reporter-method-output">Step : Click on close_startted_get<br></span>
+                <span class="reporter-method-output">Step : Click on close_comment<br></span>
                 <span class="reporter-method-output">Step : Click on click_on_schedule<br></span>
                 <span class="reporter-method-output">Step : Click on add_new_schedule<br></span>
                 <span class="reporter-method-output">Step : Click on schedule_save<br></span>
                 <span class="reporter-method-output">Step : Click on enter_schedule_name<br></span>
+                <span class="reporter-method-output">Step : clear value from enter_schedule_name text fields<br></span>
                 <span class="reporter-method-output">Step : clear value from enter_schedule_name text fields and enter text Test 772<br></span>
                 <span class="reporter-method-output">Step : Click on select_time_zone<br></span>
                 <span class="reporter-method-output">Step : Click on change_time_zone<br></span>
+                <span class="reporter-method-output">Step : Click on monday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 09 at locator monday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator monday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator monday_time_1_3<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator monday_time_1_4<br></span>
+                <span class="reporter-method-output">Step : Click on monday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator monday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Click on monday_add_1<br></span>
+                <span class="reporter-method-output">Step : Click on monday_time_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 11 at locator monday_time_2<br></span>
+                <span class="reporter-method-output">Step : Click on monday_time_2_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator monday_time_2_1<br></span>
+                <span class="reporter-method-output">Step : Click on monday_time_2_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 12 at locator monday_time_2_2<br></span>
+                <span class="reporter-method-output">Step : Click on monday_time_2_3<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator monday_time_2_3<br></span>
+                <span class="reporter-method-output">Step : Click on thursday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 09 at locator thursday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator thursday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator thursday_time_1_3<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator thursday_time_1_4<br></span>
+                <span class="reporter-method-output">Step : Click on wednesday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 09 at locator wednesday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator wednesday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator wednesday_time_1_3<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator wednesday_time_1_4<br></span>
+                <span class="reporter-method-output">Step : Click on tuesday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 09 at locator tuesday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator tuesday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator tuesday_time_1_3<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator tuesday_time_1_4<br></span>
+                <span class="reporter-method-output">Step : Click on friday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 09 at locator friday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator friday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator friday_time_1_3<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator friday_time_1_4<br></span>
+                <span class="reporter-method-output">Step : Click on saturday_add_1<br></span>
+                <span class="reporter-method-output">Step : Click on saturday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 09 at locator saturday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator saturday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator saturday_time_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator saturday_time_2_1<br></span>
+                <span class="reporter-method-output">Step : Click on sunday_add_1<br></span>
+                <span class="reporter-method-output">Step : Click on sunday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 09 at locator sunday_time_1<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator sunday_time_1_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 10 at locator sunday_time_2<br></span>
+                <span class="reporter-method-output">Step : Enter text 00 at locator sunday_time_2_1<br></span>
+                <span class="reporter-method-output">Step : Click on schedule_save<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -268,18 +320,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">web.tests.signup.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">web.tests.SignUpTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verify_signup_with_valid_email_password</span>
-                <span class="method-start">8951 ms</span>
+                <span class="method-start">9388 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tear_down([TestResult name=verify_signup_with_valid_email_password status=SUCCESS method=SignUpTest.verify_sig...)</span>
-                <span class="method-start">197081 ms</span>
+                <span class="method-start">262352 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

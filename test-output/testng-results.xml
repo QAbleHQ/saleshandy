@@ -5,7 +5,7 @@
       <![CDATA[Step : Click on preferably_your_work_email_text_box<br>]]>
     </line>
     <line>
-      <![CDATA[Step : Enter text qabletest+4.27@gmail.com at locator preferably_your_work_email_text_box<br>]]>
+      <![CDATA[Step : Enter text qabletest+525@gmail.com at locator preferably_your_work_email_text_box<br>]]>
     </line>
     <line>
       <![CDATA[Step : Enter text QAble@1010 at locator a_secure_one_please_password<br>]]>
@@ -95,6 +95,12 @@
       <![CDATA[Step : Click on close_video<br>]]>
     </line>
     <line>
+      <![CDATA[Step : Click on close_startted_get<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on close_comment<br>]]>
+    </line>
+    <line>
       <![CDATA[Step : Click on click_on_schedule<br>]]>
     </line>
     <line>
@@ -107,6 +113,9 @@
       <![CDATA[Step : Click on enter_schedule_name<br>]]>
     </line>
     <line>
+      <![CDATA[Step : clear value from enter_schedule_name text fields<br>]]>
+    </line>
+    <line>
       <![CDATA[Step : clear value from enter_schedule_name text fields and enter text Test 772<br>]]>
     </line>
     <line>
@@ -115,23 +124,170 @@
     <line>
       <![CDATA[Step : Click on change_time_zone<br>]]>
     </line>
+    <line>
+      <![CDATA[Step : Click on monday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 09 at locator monday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator monday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator monday_time_1_3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator monday_time_1_4<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on monday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator monday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on monday_add_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on monday_time_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 11 at locator monday_time_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on monday_time_2_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator monday_time_2_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on monday_time_2_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 12 at locator monday_time_2_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on monday_time_2_3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator monday_time_2_3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on thursday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 09 at locator thursday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator thursday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator thursday_time_1_3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator thursday_time_1_4<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on wednesday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 09 at locator wednesday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator wednesday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator wednesday_time_1_3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator wednesday_time_1_4<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on tuesday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 09 at locator tuesday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator tuesday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator tuesday_time_1_3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator tuesday_time_1_4<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on friday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 09 at locator friday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator friday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator friday_time_1_3<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator friday_time_1_4<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on saturday_add_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on saturday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 09 at locator saturday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator saturday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator saturday_time_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator saturday_time_2_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on sunday_add_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on sunday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 09 at locator sunday_time_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator sunday_time_1_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 10 at locator sunday_time_2<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Enter text 00 at locator sunday_time_2_1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step : Click on schedule_save<br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-06-28T11:50:24 IST" name="web test signup" finished-at="2022-06-28T11:53:41 IST" duration-ms="197501">
+  <suite started-at="2022-06-28T23:45:33 IST" name="web test signup" finished-at="2022-06-28T23:49:56 IST" duration-ms="262718">
     <groups>
     </groups>
-    <test started-at="2022-06-28T11:50:24 IST" name="verify signup with valid email password" finished-at="2022-06-28T11:53:41 IST" duration-ms="197501">
-      <class name="web.tests.signup.SignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-28T11:50:24 IST" name="init" finished-at="2022-06-28T11:50:33 IST" duration-ms="8949" status="PASS">
+    <test started-at="2022-06-28T23:45:33 IST" name="verify signup with valid email password" finished-at="2022-06-28T23:49:56 IST" duration-ms="262718">
+      <class name="web.tests.SignUpTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:web.tests.SignUpTest@bef2d72]" started-at="2022-06-28T23:45:33 IST" name="init" finished-at="2022-06-28T23:45:43 IST" duration-ms="9387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verify_signup_with_valid_email_password()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-28T11:50:33 IST" name="verify_signup_with_valid_email_password" finished-at="2022-06-28T11:53:41 IST" duration-ms="188101" status="PASS">
+        <test-method signature="verify_signup_with_valid_email_password()[pri:0, instance:web.tests.SignUpTest@bef2d72]" started-at="2022-06-28T23:45:43 IST" name="verify_signup_with_valid_email_password" finished-at="2022-06-28T23:49:56 IST" duration-ms="252936" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Step : Click on preferably_your_work_email_text_box<br>]]>
             </line>
             <line>
-              <![CDATA[Step : Enter text qabletest+4.27@gmail.com at locator preferably_your_work_email_text_box<br>]]>
+              <![CDATA[Step : Enter text qabletest+525@gmail.com at locator preferably_your_work_email_text_box<br>]]>
             </line>
             <line>
               <![CDATA[Step : Enter text QAble@1010 at locator a_secure_one_please_password<br>]]>
@@ -221,6 +377,12 @@
               <![CDATA[Step : Click on close_video<br>]]>
             </line>
             <line>
+              <![CDATA[Step : Click on close_startted_get<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on close_comment<br>]]>
+            </line>
+            <line>
               <![CDATA[Step : Click on click_on_schedule<br>]]>
             </line>
             <line>
@@ -233,6 +395,9 @@
               <![CDATA[Step : Click on enter_schedule_name<br>]]>
             </line>
             <line>
+              <![CDATA[Step : clear value from enter_schedule_name text fields<br>]]>
+            </line>
+            <line>
               <![CDATA[Step : clear value from enter_schedule_name text fields and enter text Test 772<br>]]>
             </line>
             <line>
@@ -241,20 +406,167 @@
             <line>
               <![CDATA[Step : Click on change_time_zone<br>]]>
             </line>
+            <line>
+              <![CDATA[Step : Click on monday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 09 at locator monday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator monday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator monday_time_1_3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator monday_time_1_4<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on monday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator monday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on monday_add_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on monday_time_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 11 at locator monday_time_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on monday_time_2_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator monday_time_2_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on monday_time_2_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 12 at locator monday_time_2_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on monday_time_2_3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator monday_time_2_3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on thursday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 09 at locator thursday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator thursday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator thursday_time_1_3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator thursday_time_1_4<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on wednesday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 09 at locator wednesday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator wednesday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator wednesday_time_1_3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator wednesday_time_1_4<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on tuesday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 09 at locator tuesday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator tuesday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator tuesday_time_1_3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator tuesday_time_1_4<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on friday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 09 at locator friday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator friday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator friday_time_1_3<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator friday_time_1_4<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on saturday_add_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on saturday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 09 at locator saturday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator saturday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator saturday_time_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator saturday_time_2_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on sunday_add_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on sunday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 09 at locator sunday_time_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator sunday_time_1_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 10 at locator sunday_time_2<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Enter text 00 at locator sunday_time_2_1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step : Click on schedule_save<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verify_signup_with_valid_email_password -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.signup.SignUpTest@bef2d72]" started-at="2022-06-28T11:53:41 IST" name="tear_down" finished-at="2022-06-28T11:53:41 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:web.tests.SignUpTest@bef2d72]" started-at="2022-06-28T23:49:56 IST" name="tear_down" finished-at="2022-06-28T23:49:56 IST" duration-ms="332" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_signup_with_valid_email_password status=SUCCESS method=SignUpTest.verify_signup_with_valid_email_password()[pri:0, instance:web.tests.signup.SignUpTest@bef2d72] output=Step : Click on preferably_your_work_email_text_box<br>]]]>
+                <![CDATA[[TestResult name=verify_signup_with_valid_email_password status=SUCCESS method=SignUpTest.verify_signup_with_valid_email_password()[pri:0, instance:web.tests.SignUpTest@bef2d72] output=Step : Click on preferably_your_work_email_text_box<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-      </class> <!-- web.tests.signup.SignUpTest -->
+      </class> <!-- web.tests.SignUpTest -->
     </test> <!-- verify signup with valid email password -->
   </suite> <!-- web test signup -->
 </testng-results>

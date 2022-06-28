@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name = "web test signup">
 
-    <test name = "verify signup with valid email password">
+    <test name = "verify user should be able to create sequence">
         <classes>
-            <class name = "web.tests.SignUpTest" >
+            <class name = "web.tests.LoginTest" >
                 <methods>
-                    <include name="verify_signup_with_valid_email_password"></include>
+                    <include name="verify_user_should_be_able_to_create_sequence"></include>
                 </methods>
             </class>
         </classes>
