@@ -1,20 +1,20 @@
 {
-  "run": "health_check_demo_api",
+  "run": "cs_test",
   "config": {
-    "gmail": {
+    "cs_test": {
       "platform": "web",
       "browser": "chrome",
       "capabilities": {},
-      "env": "https://gmail.com",
+      "env": "https://my.saleshandy.com/signup",
       "isGrid": false,
-      "gridURL": "",
+      "gridURL": "http://172.31.13.52:4444/wd/hub",
       "viewPort": "",
-      "apiTestConfig" :{
-        "enable" : false,
-        "env" : ""
+      "apiTestConfig": {
+        "enable": false,
+        "env": ""
       },
-      "suite": [
-        ""
+      "testNGsuite": [
+        "wsignup.xml"
       ]
     },
     "smokeConfig": {
@@ -29,36 +29,11 @@
         "smoke.xml"
       ]
     },
-    "abcd": {
-      "platform": "android",
-      "capabilities": {
-        "platformName": "android",
-        "appium:app": "/Users/viralpatel/Viral/QAbleAutomation/src/test/java/suites/FLappv1.41.0(421).apk",
-        "appium:deviceName": "emulator-5554",
-        "appium:platformVersion": "12.0",
-        "appium:automationName": "UiAutomator2",
-        "appium:adbExecTimeout": 30000
-      },
-      "suite": [],
-      "appiumURL": "http://0.0.0.0:4723/wd/hub"
-    },
-    "iOS": {
-      "platform": "iOS",
-      "capabilities": {
-        "platformName": "iOS",
-        "app": "/Users/viralpatel/Downloads/Upwork/App/FreelancersDM-iphonesimulator-iOS14-1.38.0.14.app",
-        "deviceName": "iPhone 13",
-        "platformVersion": "15.2",
-        "automationName": "XCUITest"
-      },
-      "suite": [],
-      "appiumURL": "http://0.0.0.0:4723/wd/hub"
-    },
 
     "health_check_demo_api": {
       "platform": "api",
       "enable": true,
-      "env": "https://v3api.lifeisgoodforlearner.com",
+      "env": "https://v3api.lifeisgoodforlearner.com/ping",
       "testNGsuite": [
         "signup.xml"
       ]
