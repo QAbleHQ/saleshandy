@@ -123,7 +123,7 @@
 
     <test name = "verify OTP received into the Mail">
         <classes>
-            <class name = "api.test.LoginTest" >
+            <class name = "api.test.SignUpOtpTest" >
                 <methods>
                     <include name="signup_with_valid_otp"></include>
                 </methods>
