@@ -1,7 +1,7 @@
 {
-  "run": "cs_test",
+  "run": "health_check_demo_api",
   "config": {
-    "cs_test": {
+    "gmail": {
       "platform": "web",
       "browser": "chrome",
       "capabilities": {},
@@ -17,25 +17,29 @@
         "wsignup.xml"
       ]
     },
-    "smokeConfig": {
+    "WebTest": {
       "platform": "web",
       "browser": "chrome",
       "capabilities": {},
-      "env": "",
+      "env": "https://my.saleshandy.com/signup",
       "isGrid": "",
       "gridURL": "",
       "viewPort": "",
-      "suite": [
-        "smoke.xml"
+      "apiTestConfig": {
+        "enable": false,
+        "env": ""
+      },
+      "testNGsuite": [
+        "wsignup.xml"
       ]
     },
 
     "health_check_demo_api": {
       "platform": "api",
       "enable": true,
-      "env": "https://v3api.lifeisgoodforlearner.com/ping",
+      "env": "https://v3api.lifeisgoodforlearner.com",
       "testNGsuite": [
-        "signup.xml"
+        "API_Regression.xml"
       ]
     }
   }
