@@ -121,8 +121,6 @@
         </classes>
     </test>
 
-
-
     <test name = "verify OTP received into the Mail">
         <classes>
             <class name = "api.test.LoginTest" >

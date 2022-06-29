@@ -1,42 +1,45 @@
 {
-  "run": "cs_test",
-  "config": {
-    "cs_test": {
-      "platform": "web",
-      "browser": "chrome",
-      "capabilities": {},
-      "env": "https://my.saleshandy.com/signup",
-      "isGrid": false,
-      "gridURL": "http://172.31.13.52:4444/wd/hub",
-      "viewPort": "",
-      "apiTestConfig": {
-        "enable": false,
-        "env": ""
+  "run": "WebTestDemo",
+    "config": {
+      "gmail": {
+        "platform": "web",
+        "browser": "chrome",
+        "capabilities": {},
+        "env": "https://gmail.com",
+        "isGrid": false,
+        "gridURL": "",
+        "viewPort": "",
+        "apiTestConfig": {
+          "enable": false,
+          "env": ""
+        },
+        "suite": [
+          ""
+        ]
       },
-      "testNGsuite": [
-        "wsignup.xml"
-      ]
-    },
-    "smokeConfig": {
-      "platform": "web",
-      "browser": "chrome",
-      "capabilities": {},
-      "env": "",
-      "isGrid": "",
-      "gridURL": "",
-      "viewPort": "",
-      "suite": [
-        "smoke.xml"
-      ]
-    },
-
-    "health_check_demo_api": {
-      "platform": "api",
-      "enable": true,
-      "env": "https://v3api.lifeisgoodforlearner.com/ping",
-      "testNGsuite": [
-        "signup.xml"
-      ]
+      "WebTestDemo": {
+        "platform": "web",
+        "browser": "chrome",
+        "capabilities": {},
+        "env": "https://my.saleshandy.com/signup",
+        "isGrid": false,
+        "gridURL": "",
+        "viewPort": "",
+        "apiTestConfig": {
+          "enable": false,
+          "env": ""
+        },
+        "testNGsuite": [
+          "wsignup.xml"
+        ]
+      },
+      "health_check_demo_api": {
+        "platform": "api",
+        "enable": true,
+        "env": "https://v3api.lifeisgoodforlearner.com",
+        "testNGsuite": [
+          "API_Regression.xml"
+        ]
+      }
     }
   }
-}
