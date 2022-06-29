@@ -6,8 +6,8 @@
         "browser": "chrome",
         "capabilities": {},
         "env": "https://gmail.com",
-        "isGrid": false,
-        "gridURL": "",
+        "isGrid": true,
+        "gridURL": "http://208.87.133.122:4444/wd/hub",
         "viewPort": "",
         "apiTestConfig": {
           "enable": false,
@@ -22,8 +22,8 @@
         "browser": "chrome",
         "capabilities": {},
         "env": "https://my.saleshandy.com/signup",
-        "isGrid": false,
-        "gridURL": "",
+        "isGrid": true,
+        "gridURL": "http://208.87.133.122:4444/wd/hub",
         "viewPort": "",
         "apiTestConfig": {
           "enable": false,
